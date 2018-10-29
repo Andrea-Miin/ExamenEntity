@@ -9,12 +9,6 @@ using System.Configuration;
 // Ejercicio 1
 namespace ExamenEntity
 {
-    class Ejercicio1 : DbContext
-    {
-        public DbSet<Pizza> Pizza { get; set; }
-        public DbSet<Ingredient> Ingredient { get; set; }
-    }
-
     public class EntityBase
     {
         public int Id { get; set; }

@@ -43,6 +43,8 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -53,11 +55,14 @@
   <ItemGroup>
     <Compile Include="Ejercicio1.cs" />
     <Compile Include="Ejercicio2.cs" />
+    <Compile Include="Ejercicio2Repository.cs" />
+    <Compile Include="Ejercicio3.cs" />
     <Compile Include="Migrations\201810291617554_InitialCreate.cs" />
     <Compile Include="Migrations\201810291617554_InitialCreate.Designer.cs">
       <DependentUpon>201810291617554_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Pizzeria.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
