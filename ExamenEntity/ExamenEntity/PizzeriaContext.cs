@@ -10,6 +10,7 @@
     {
         int SaveChanges();
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
+        Task<int> SaveChangesAsync();
     }
 
     public class PizzeriaContext : DbContext, IUnitOfWork
