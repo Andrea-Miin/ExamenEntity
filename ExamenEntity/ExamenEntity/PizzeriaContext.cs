@@ -1,4 +1,6 @@
-﻿namespace ExamenEntity
+﻿// Ejercicio 2
+// Context
+namespace ExamenEntity
 {
     using System;
     using System.Data.Entity;

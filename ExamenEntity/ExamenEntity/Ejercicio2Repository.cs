@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 
+// Ejercicio 2
+// Repositorio
 namespace ExamenEntity
 {
     class Ejercicio2Repository : IEjercicio2, IDisposable
