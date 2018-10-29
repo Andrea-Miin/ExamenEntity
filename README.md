@@ -25,7 +25,11 @@ Creo un IEnumerable que haga una busqueda en Pizza. Con Take(), le digo que coja
 En el primer caso al ser la pagina 1 --> 1-1 * 15. 1-1 es 0 por lo que el resultado (0) le diria que no salte ninguna.
 
 ## 4.
-
+Creo un decimal que recoge la constante benefict de appconfig y la convierte en decimal.  
+Despues creo una variable que recoge todos los ingredientes que tenga una pizza.  
+Si el numero de ingredientes en un pizza es menor de 1, lanza una excepcion.  
+Para terminar regresa la suma del precio de los ingredientes por el beneficio.  
+  
 Despues de todo, en la consola de paquetes NuGet, escribo la linea "enable-migrations" (si no lo he hecho antes) que crea la base de datos.  
 Despues, escribo "add-migration InitialCreate" que crea un archivo en la carpeta migration con los cambios que se quieren hacer en la base de datos.  
 Una vez hecho, escribo "update-database" para actualizar la base de datos.
