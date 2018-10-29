@@ -9,9 +9,9 @@ namespace ExamenEntity
 {
     class Ejercicio2Repository : IEjercicio2, IDisposable
     {
-        private Pizzeria context;
+        private PizzeriaContext context;
 
-        public Ejercicio2Repository(Pizzeria context)
+        public Ejercicio2Repository(PizzeriaContext context)
         {
             this.context = context;
         }

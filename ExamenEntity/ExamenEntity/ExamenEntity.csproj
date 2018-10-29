@@ -62,7 +62,7 @@
       <DependentUpon>201810291617554_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Pizzeria.cs" />
+    <Compile Include="PizzeriaContext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

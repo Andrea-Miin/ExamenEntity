@@ -3,13 +3,21 @@
     using System;
     using System.Data.Entity;
     using System.Linq;
+    using System.Threading;
+    using System.Threading.Tasks;
 
-    public class Pizzeria : DbContext
+    public interface IUnitOfWork
+    {
+        int SaveChanges();
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken);
+    }
+
+    public class PizzeriaContext : DbContext, IUnitOfWork
     {
         public DbSet<Pizza> Pizza { get; set; }
         public DbSet<Ingredient> Ingredient { get; set; }
 
-        public Pizzeria()
+        public PizzeriaContext()
             : base("name=Pizzeria.Context")
         {
         }
