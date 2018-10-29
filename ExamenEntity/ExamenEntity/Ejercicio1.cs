@@ -16,8 +16,6 @@ namespace ExamenEntity
 
     public class Pizza : EntityBase
     {
-        private const decimal benefict = 1.2M;
-
         public string Name { get; set; }
 
         public ICollection<Ingredient> Id_Ingredients { get; set; }
@@ -38,5 +36,6 @@ namespace ExamenEntity
         }
 
         public ICollection<Pizza> Id_Pizzas { get; set; }
+        
     }
 }
