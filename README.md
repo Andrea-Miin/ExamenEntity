@@ -1,7 +1,6 @@
 # ExamenEntity
 ## Examen Entity Framework
 ### Andrea García Bravo
-29/10/2018
 
 ## 1.
 Primero creo las estructuras de datos en su clase especifica. Hago una relacion many to many con ICollection entre pizza e ingredient para crear automaticamente una tabla de relacion.  
